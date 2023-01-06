@@ -1,0 +1,8 @@
+---
+title: ''
+output: pdf_document
+---
+
+\section*{Acknowledgements}
+
+You may want to include an acknowledgment of help received from particular people or a brief note of dedication. Such notes should follow at this point. If you are using published material in the main body of the manuscript, you must enclose an acknowledgment indicating where your work has been published. Do not include acknowledgments at the end of each chapter. This page should be numbered using lower case Roman numerals. If you choose to include both Acknowledgments and Dedication, they should be on separate pages, with the Acknowledgment page appearing first. The text of these pages must be double-spaced. 

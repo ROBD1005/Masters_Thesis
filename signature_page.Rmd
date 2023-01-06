@@ -1,0 +1,8 @@
+---
+title: ''
+output: pdf_document
+---
+
+\section*{Signature Page}
+
+ The signature page involves the electronic version that does not require actual signatures. The electronic version of the document must include an unsigned formatted signature page.
