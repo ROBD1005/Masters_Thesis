@@ -1,8 +1,90 @@
 ---
 title: ''
 output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
 ---
 
-\section*{Signature Page}
+\section*{}
 
- The signature page involves the electronic version that does not require actual signatures. The electronic version of the document must include an unsigned formatted signature page.
+\vfill
+
+\begin{center}
+Copyright by Robert J. Dellinger
+\end{center}
+
+\newpage
+
+The thesis of Robert J. Dellinger is approved:
+
+\vspace{1.5in}
+
+\underline{\hspace{2.5in}}\hspace{0.5in} \underline{\hspace{2in}}
+
+Dr. Peter J. Edmunds \hspace{1.65in} Date: 
+
+\vspace{0.5in}
+
+\underline{\hspace{2.5in}}\hspace{0.5in} \underline{\hspace{2in}}
+
+Dr. Kerry J. Nickols \hspace{1.75in} Date: 
+
+\vspace{0.5in}
+
+\underline{\hspace{2.5in}}\hspace{0.5in} \underline{\hspace{2in}}
+
+Dr. Nyssa J. Silbiger, Chair \hspace{1.3in} Date: 
+
+\vfill
+
+\begin{center}
+California State University, Northridge
+\end{center}
+
+\newpage
+
+\vspace*{\fill} 
+
+\begin{center}
+
+\begin{minipage}{0.8\textwidth}
+\begin{quote}
+
+``Against this cosmic background the lifetime of a particular \\
+  plant or animal appears, not as a drama complete in itself, \\
+  but only as a brief interlude in a panorama of endless change.'' \\
+
+— Rachel Carson, \textit{Undersea} (1937)
+\end{quote}
+\end{minipage}
+
+\vspace*{\fill}
+
+\begin{minipage}{0.8\textwidth}
+\begin{quote}
+``For nothing is fixed, forever, forever, forever, \\
+  it is not fixed; \\
+  the earth is always shifting, \\
+  the light is always changing, \\
+  the sea does not cease to grind down rock.\\
+  Generations do not cease to be born,\\ 
+  and we are responsible to them \\
+  because we are the only witnesses they have. \\
+ 
+  The sea rises, the light fails, \\
+  lovers cling to each other, \\
+  and children cling to us. \\
+  The moment we cease to hold each other, \\
+  the moment we break faith with one another, \\
+  the sea engulfs us and the light goes out.'' \\
+
+
+— James Baldwin, \textit{Nothing Personal} (1964)
+\end{quote}
+\end{minipage}
+
+\vspace*{\fill}
+
+\end{center}
+

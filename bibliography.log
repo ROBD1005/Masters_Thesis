@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**masters_thesis.tex
-(./masters_thesis.tex
+**bibliography.tex
+(./bibliography.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -397,48 +397,47 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count294
 ))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 83.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 80.
 (/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box58
-)
-No file masters_thesis.aux.
-\openout1 = `masters_thesis.aux'.
+) (./bibliography.aux)
+\openout1 = `bibliography.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
-Package microtype Info: Applying patch `footnote' on input line 83.
-Package microtype Info: Applying patch `verbatim' on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Info: Redefining \microtypecontext on input line 80.
+Package microtype Info: Applying patch `item' on input line 80.
+Package microtype Info: Applying patch `toc' on input line 80.
+Package microtype Info: Applying patch `eqnum' on input line 80.
+Package microtype Info: Applying patch `footnote' on input line 80.
+Package microtype Info: Applying patch `verbatim' on input line 80.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 83.
+LaTeX Info: Redefining \showhyphens on input line 80.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -484,470 +483,29 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 83.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 85.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 85.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 85.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 85.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 85.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 85.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 85.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
+Package hyperref Info: Link coloring OFF on input line 80.
+No file bibliography.bbl.
 
-{/Users/bobbyjdell/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-<Images/university_logo.png, id=12, 1284.8pt x 1284.8pt>
-File: Images/university_logo.png Graphic file (type png)
-<use Images/university_logo.png>
-Package pdftex.def Info: Images/university_logo.png  used on input line 104.
-(pdftex.def)             Requested size: 140.91673pt x 140.91673pt.
-[2 <./Images/university_logo.png>] [1]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 148.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 148.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 148.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 179--182
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--206
-
- []
-
-[3] [4] [5] [6]
-No file masters_thesis.toc.
-\tf@toc=\write3
-\openout3 = `masters_thesis.toc'.
-
-[7]
-No file masters_thesis.lot.
-\tf@lot=\write4
-\openout4 = `masters_thesis.lot'.
-
-[8]
-No file masters_thesis.lof.
-\tf@lof=\write5
-\openout5 = `masters_thesis.lof'.
-
-[9]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 322.
-(/Users/bobbyjdell/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.333 \newpage
-               [1{/Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-Package natbib Warning: Citation `connell1977mechanisms' on page 2 undefined on input line 343.
-
-
-Package natbib Warning: Citation `menge1987community' on page 2 undefined on input line 343.
-
-
-Package natbib Warning: Citation `lewontin1983organism' on page 2 undefined on input line 348.
-
-
-Package natbib Warning: Citation `estes1974sea' on page 2 undefined on input line 348.
-
-
-Package natbib Warning: Citation `levin1974disturbance' on page 2 undefined on input line 354.
-
-
-Package natbib Warning: Citation `paine1980food' on page 2 undefined on input line 354.
-
-
-Package natbib Warning: Citation `bozinovic2015physiological' on page 2 undefined on input line 357.
-
-
-Package natbib Warning: Citation `lewontin1983organism' on page 2 undefined on input line 378.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.379 
-       [2]
-
-Package natbib Warning: Citation `connell1961influence' on page 3 undefined on input line 388.
-
-
-Package natbib Warning: Citation `stenseth2002ecological' on page 3 undefined on input line 388.
-
-
-Package natbib Warning: Citation `kroeker2017embracing' on page 3 undefined on input line 388.
-
-
-Package natbib Warning: Citation `deser2010sea' on page 3 undefined on input line 394.
-
-
-Package natbib Warning: Citation `hofmann2010living' on page 3 undefined on input line 394.
-
-
-Package natbib Warning: Citation `helmuth2006mosaic' on page 3 undefined on input line 397.
-
-
-Package natbib Warning: Citation `cote2016interactions' on page 3 undefined on input line 403.
-
-
-Package natbib Warning: Citation `boyd2012understanding' on page 3 undefined on input line 403.
-
-
-Package natbib Warning: Citation `hofmann2010living' on page 3 undefined on input line 406.
-
-
-Package natbib Warning: Citation `tomanek2002heat' on page 3 undefined on input line 406.
-
-
-Package natbib Warning: Citation `portner2008physiology' on page 3 undefined on input line 410.
-
-
-Package natbib Warning: Citation `brown2004toward' on page 3 undefined on input line 410.
-
-
-Package natbib Warning: Citation `brown2004toward' on page 3 undefined on input line 413.
-
-
-Package natbib Warning: Citation `somero2002thermal' on page 3 undefined on input line 416.
-
-
-Package natbib Warning: Citation `silbiger2019comparative' on page 3 undefined on input line 416.
-
-
-Package natbib Warning: Citation `carey2016sea' on page 3 undefined on input line 421.
-
-[3]
-
-Package natbib Warning: Citation `woodwell1970effects' on page 4 undefined on input line 426.
-
-
-Package natbib Warning: Citation `levins1968evolution' on page 4 undefined on input line 429.
-
-
-Package natbib Warning: Citation `somero2002thermal' on page 4 undefined on input line 429.
-
-
-Package natbib Warning: Citation `portner2012integrating' on page 4 undefined on input line 429.
-
-
-Package natbib Warning: Citation `hochachka2002biochemical' on page 4 undefined on input line 431.
-
-
-Package natbib Warning: Citation `elahi2020historical' on page 4 undefined on input line 434.
-
-
-Package natbib Warning: Citation `brown2004toward' on page 4 undefined on input line 437.
-
-
-Package natbib Warning: Citation `o2007temperature' on page 4 undefined on input line 437.
-
-
-Package natbib Warning: Citation `sinclair2016can' on page 4 undefined on input line 440.
-
-
-Package natbib Warning: Citation `hochachka2002biochemical' on page 4 undefined on input line 442.
-
-
-Package natbib Warning: Citation `kordas2011community' on page 4 undefined on input line 446.
-
-
-Package natbib Warning: Citation `sanford2002feeding' on page 4 undefined on input line 446.
-
-
-Package natbib Warning: Citation `pinsky2013marine' on page 4 undefined on input line 446.
-
-
-Package natbib Warning: Citation `darling2008quantifying' on page 4 undefined on input line 449.
-
-
-Package natbib Warning: Citation `hofmann2010living' on page 4 undefined on input line 452.
-
-
-Package natbib Warning: Citation `gaylord2015ocean' on page 4 undefined on input line 454.
-
-
-Package natbib Warning: Citation `doney2009ocean' on page 4 undefined on input line 458.
-
-
-Package natbib Warning: Citation `spalding2017energetic' on page 4 undefined on input line 458.
-
-
-Package natbib Warning: Citation `doney2009ocean' on page 4 undefined on input line 461.
-
-
-Package natbib Warning: Citation `tomanek2002physiological' on page 4 undefined on input line 466.
-
-
-Package natbib Warning: Citation `barclay2019variation' on page 4 undefined on input line 466.
-
-[4]
-
-Package natbib Warning: Citation `cote2016interactions' on page 5 undefined on input line 483.
-
-
-Package natbib Warning: Citation `kikstra2022ipcc' on page 5 undefined on input line 489.
-
-
-Package natbib Warning: Citation `fox2021ocean' on page 5 undefined on input line 489.
-
-
-Package natbib Warning: Citation `bay2017genomic' on page 5 undefined on input line 489.
-
-
-Package natbib Warning: Citation `somero2010physiology' on page 5 undefined on input line 489.
-
-
-Package natbib Warning: Citation `feely2004impact' on page 5 undefined on input line 491.
-
-
-Package natbib Warning: Citation `feely2004impact' on page 5 undefined on input line 494.
-
-
-Package natbib Warning: Citation `change2014impacts' on page 5 undefined on input line 497.
-
-
-Package natbib Warning: Citation `orr2005anthropogenic' on page 5 undefined on input line 497.
-
-[5{/Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-Package natbib Warning: Citation `connell1961influence' on page 6 undefined on input line 512.
-
-
-Package natbib Warning: Citation `paine1969pisaster' on page 6 undefined on input line 512.
-
-
-Package natbib Warning: Citation `kwiatkowski2016nighttime' on page 6 undefined on input line 512.
-
-
-Package natbib Warning: Citation `jellison2022low' on page 6 undefined on input line 512.
-
-
-Package natbib Warning: Citation `denny2001physical; helmuth2002climate' on page 6 undefined on input line 516.
-
-
-Package natbib Warning: Citation `helmuth2006mosaic; somero2002thermal' on page 6 undefined on input line 521.
-
-
-Package natbib Warning: Citation `somero2010physiology' on page 6 undefined on input line 521.
-
-
-Package natbib Warning: Citation `connell1961influence' on page 6 undefined on input line 521.
-
-
-Package natbib Warning: Citation `Helmuth' on page 6 undefined on input line 524.
-
-
-Package natbib Warning: Citation `1999' on page 6 undefined on input line 524.
-
-
-Package natbib Warning: Citation `jellison2016ocean' on page 6 undefined on input line 526.
-
-
-Package natbib Warning: Citation `kwiatkowski2016nighttime' on page 6 undefined on input line 526.
-
-
-Package natbib Warning: Citation `helmuth2006mosaic' on page 6 undefined on input line 530.
-
-
-Package natbib Warning: Citation `Carey' on page 6 undefined on input line 540.
-
-
-Package natbib Warning: Citation `Harianto' on page 6 undefined on input line 540.
-
-
-Package natbib Warning: Citation `& Byrne' on page 6 undefined on input line 540.
-
-
-Package natbib Warning: Citation `2016' on page 6 undefined on input line 540.
-
-
-Package natbib Warning: Citation `levins1968evolution' on page 6 undefined on input line 547.
-
-
-Package natbib Warning: Citation `huey1979integrating' on page 6 undefined on input line 547.
-
-
-Package natbib Warning: Citation `hochachka2002biochemical' on page 6 undefined on input line 547.
-
-
-Package natbib Warning: Citation `gillooly2001effects' on page 6 undefined on input line 550.
-
-
-Package natbib Warning: Citation `sanford1999regulation' on page 6 undefined on input line 551.
-
-
-Package natbib Warning: Citation `brown2004toward' on page 6 undefined on input line 557.
-
-
-Package natbib Warning: Citation `gaylord2015ocean' on page 6 undefined on input line 559.
-
-
-Package natbib Warning: Citation `kroeker2013impacts' on page 6 undefined on input line 562.
-
-
-Package natbib Warning: Citation `doney2009ocean' on page 6 undefined on input line 565.
-
-
-Package natbib Warning: Citation `tomanek2002heat' on page 6 undefined on input line 570.
-
-
-Package natbib Warning: Citation `barclay2019variation' on page 6 undefined on input line 570.
-
-
-Package natbib Warning: Citation `kroeker2022ecological' on page 6 undefined on input line 570.
-
-[6]
-<Images/thermal_performance_curve_schematic.png, id=98, 496.13354pt x 361.47044pt>
-File: Images/thermal_performance_curve_schematic.png Graphic file (type png)
-<use Images/thermal_performance_curve_schematic.png>
-Package pdftex.def Info: Images/thermal_performance_curve_schematic.png  used on input line 574.
-(pdftex.def)             Requested size: 469.75711pt x 342.25323pt.
-
-Package natbib Warning: Citation `kroeker2017embracing' on page 7 undefined on input line 581.
-
-
-Package natbib Warning: Citation `schulte2011thermal' on page 7 undefined on input line 584.
-
-
-Package natbib Warning: Citation `silbiger2019comparative' on page 7 undefined on input line 584.
-
-
-Package natbib Warning: Citation `silva2021local' on page 7 undefined on input line 584.
-
-
-Package natbib Warning: Citation `padfield2021rtpc; becker2020nutrient' on page 7 undefined on input line 584.
-
-
-Package natbib Warning: Citation `padfield2021rtpc' on page 7 undefined on input line 589.
-
-
-Package natbib Warning: Citation `schulte2011thermal' on page 7 undefined on input line 589.
-
-
-Package natbib Warning: Citation `silbiger2019comparative' on page 7 undefined on input line 589.
-
-
-Package natbib Warning: Citation `somero2002thermal' on page 7 undefined on input line 596.
-
-
-Package natbib Warning: Citation `portner2002climate' on page 7 undefined on input line 596.
-
-
-Package natbib Warning: Citation `schulte2011thermal' on page 7 undefined on input line 602.
-
-
-Package natbib Warning: Citation `huey1979integrating' on page 7 undefined on input line 602.
-
-
-Package natbib Warning: Citation `huey1989evolution' on page 7 undefined on input line 602.
-
-
-Package natbib Warning: Citation `portner2017oxygen' on page 7 undefined on input line 607.
-
-
-Package natbib Warning: Citation `somero2002thermal' on page 7 undefined on input line 607.
-
-
-Package natbib Warning: Citation `portner2008physiology' on page 7 undefined on input line 611.
-
-
-Package natbib Warning: Citation `portner2010oxygen' on page 7 undefined on input line 611.
-
-
-Package natbib Warning: Citation `silbiger2019comparative' on page 7 undefined on input line 614.
-
-[7] [8 <./Images/thermal_performance_curve_schematic.png>] [9] [10{/Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-
-Package natbib Warning: Citation `dickson2007guide' on page 11 undefined on input line 707.
-
-
-Package natbib Warning: Citation `dickson2007guide' on page 11 undefined on input line 709.
-
-
-Package natbib Warning: Citation `gattuso2015package' on page 11 undefined on input line 712.
-
-
-Package natbib Warning: Citation `dickson2007guide' on page 11 undefined on input line 722.
-
-
-Package natbib Warning: Citation `dickson2007guide' on page 11 undefined on input line 726.
-
-[11]
-
-Package natbib Warning: Citation `jellison2016ocean' on page 12 undefined on input line 765.
-
-[12] [13] [14]
-
-Package natbib Warning: Citation `padfield2021rtpc' on page 15 undefined on input line 862.
-
-[15] [16] [17] [18] [19]
-No file masters_thesis.bbl.
-[20] [21]
-
-Package natbib Warning: There were undefined citations.
-
-[22] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./masters_thesis.aux)
+(./bibliography.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 970.
-
  ) 
 Here is how much of TeX's memory you used:
- 14336 strings out of 476077
- 227632 string characters out of 5791661
- 1933187 words of memory out of 5000000
- 35946 multiletter control sequences out of 15000+600000
- 622040 words of font info for 167 fonts, out of 8000000 for 9000
+ 13721 strings out of 476077
+ 216182 string characters out of 5791661
+ 1925187 words of memory out of 5000000
+ 35640 multiletter control sequences out of 15000+600000
+ 562312 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 83i,6n,93p,2393b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/bobbyjdell/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on masters_thesis.pdf (33 pages, 671527 bytes).
+ 83i,1n,93p,1009b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+No pages of output.
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 37059 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 3 PDF objects out of 1000 (max. 8388607)
+ 1 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 2049 words of extra memory for PDF output out of 10000 (max. 10000000)
 

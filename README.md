@@ -2,11 +2,12 @@
 
 ## Table of Contents
 
-1. [Introduction](introduction.Rmd)
 
-- [Signature Page](signature_page.Rmd)
-- [Preface](preface.Rmd)
-- [Acknowledgments](acknowledgments.Rmd)
+[Signature Page](signature_page.Rmd)
+[Acknowledgments](acknowledgments.Rmd)
+[Abstract](abstract.Rmd)
+
+1. [Introduction](introduction.Rmd)
 
 2. [Methods](methods.Rmd)
 

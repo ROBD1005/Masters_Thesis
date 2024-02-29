@@ -1,17 +1,17 @@
 ---
-title: "Masters Thesis"
+title: "Masters Thesis: Coded in R"
 author: "[Robert J. Dellinger](https://robdellinger.com)"
-date: "2023-01-01"
+date: "2024"
 output:
   pdf_document:
     number_sections: yes
-geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
-fontsize: 11pt
+geometry: "margin=1in"
+fontsize: 12pt
 header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
   - \usepackage{paralist}
-  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{setspace}
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
@@ -19,7 +19,6 @@ header-includes:
   - \usepackage[nottoc, numbib]{tocbibind}
 bibliography: bibliography.bib
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -32,6 +31,7 @@ library(tidyverse)
 ```
 
 \newpage
+\pagestyle{empty}
 
 \allsectionsfont{\centering}
 \subsectionfont{\raggedright}
@@ -39,64 +39,49 @@ library(tidyverse)
 
 \begin{centering}
 
-\vspace{3cm}
+\vspace{1 in}
+{\bf CALIFORNIA STATE UNIVERSITY, NORTHRIDGE}
 
-\vspace{1cm}
+\vspace{0.1 in}
+{Department of Biology}
+\vspace{0.2 in}
+
 
 ```{r university_logo, echo=F, out.width="30%"}
 knitr::include_graphics("Images/university_logo.png")
 ```
 
-\vspace{0.5cm}
-\Large
-{\bf CALIFORNIA STATE UNIVERSITY, NORTHRIDGE}
 
-\Large
-{\bf Department of Biology}
-\vspace{1cm}
-\Large
+\vspace{0.1 in}
 
 \doublespacing
-{\bf ORGANISMS AS THE SUBJECTS AND OBJECTS OF ECOLOGICAL CHANGE \\
-A Study Regarding The Indirect Effects of Ocean Acidification and Warming
-on Two Intertidal Species\\}
+{\bf Facing Physiological Plasticity: Investigating the Interactive Effects of pH and Temperature Variation on the Metabolic Demand of an Intertidal Gastropod \emph{Tegula funebralis} Amidst a Fluctuating Tidal Environment \\}
 
+\vspace{0.3 in}
 
-\normalsize
+Thesis submitted in partial fulfillment of the requirements\\
+For the degree of Master of Science in Biology \\
+
+\vspace{0.4 in}
 \singlespacing
 By
 
-\vspace{0.5 cm}
+\vspace{0.1 in}
+{Robert J. Dellinger}
 
-\Large
-{\bf Robert J. Dellinger}
+\vspace{2 in}
+May 2024
 
-\vspace{0.5 cm}
-{Nyssa J. Silbiger, Ph.D.}
-{Peter J. Edmunds, Ph.D.}
-{Kerry J. Nickols, Ph.D.}
+\end{centering}
+\doublespacing
 
-
-\vspace{1.5 cm}
-Thesis submitted in partial fulfillment \\
-of the requirements for the degree of  \\
-Master of Science in Biology \\
-\vspace{1.5 cm}
-
-\normalsize
-mm/yyyy
-
-   
 \newpage
-
+\pagestyle{plain}
+\pagenumbering{roman}
 
 ```{r signature page, child='signature_page.Rmd'}
 ```
-\pagenumbering{roman}
-\newpage
 
-```{r preface, child='preface.Rmd'}
-```
 \newpage
 
 ```{r acknowledgments, child='acknowledgments.Rmd'}
@@ -107,24 +92,25 @@ mm/yyyy
 \newpage
 \tableofcontents
 
-Each thesis or dissertation is expected to have a table of contents for the convenience of the reader. There is no specific format that students must follow in this case. The table of contents should be easy to read, consistent and have page numbers listed on the right side of the page. The table of contents must include page numbers for the preliminary pages, with the exception of the table of contents. A typical table of contents does not exceed 3 pages.
+\newpage
+\listoftables
+
+\newpage
+\listoffigures
 \newpage
 
+\pagenumbering{arabic}
 
-\begin{centering}
-{\bf Abstract}
-\end{centering}
-\spacing{1.5}
 
-An abstract does not typically exceed 350 words – approximately one and one-half pages doubled-spaced. The abstract should state the research problem briefly, describe the methods and procedures used in gathering data or studying the problem, and give a condensed summary of the findings of the study. The abstract heading, prepared according to sample page in the Appendix E, must have “Abstract” as the main title, include the title of the thesis/dissertation, your name as it appears on your University records, the degree, and your graduate program.
+
+```{r abstract, child = 'abstract.Rmd'}
+```
 \newpage
-
 
 ```{r introduction, child = 'introduction.Rmd'}
 ```
-\pagenumbering{arabic}
-\newpage
 
+\newpage
 
 ```{r methods, child = 'methods.Rmd'}
 ```
@@ -150,15 +136,5 @@ An abstract does not typically exceed 350 words – approximately one and one-ha
 ```
 
 
-```{r}
-#Converting a .csv bibliography (google scholar) to a .bib bibliography 
 
-#path <- here("Bibliography", "bibliography.csv")
-
-#bib <- revtools::read_bibliography(path, return_df = FALSE)
-
-#revtools::write_bibliography(bib,
-#filename = "bibliography.bib",
-#format = "bib")
-```
 

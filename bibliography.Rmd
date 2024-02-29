@@ -3,23 +3,23 @@ title: " "
 output:
   pdf_document:
     number_sections: TRUE
-geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
-fontsize: 11pt
+geometry: "margin=1in"
+fontsize: 12pt
 header-includes:
   - \usepackage{float}
   - \usepackage{sectsty}
   - \usepackage{paralist}
-  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{setspace}
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
-
+  
   - \usepackage{natbib}\bibliographystyle{agsm}
   - \usepackage[nottoc, numbib]{tocbibind}
 bibliography: bibliography.bib
 ---
 
-#citep{breton_encounter_2006} #cite in text
-#\bibliography{bibliography} #command to add the references page...
+\bibliographystyle{plain}
+\bibliography{bibliography}
 
-A Bibliography, Works Cited or Reference Section should follow the text and notes and will always begin on a new page. References are single-spaced with a blank line between each entry. The order of the bibliography and its format is a matter for discussion with your committee. However, for the ease of the reader it is preferable to have one complete alphabetical listing at the end of the manuscript. When citing electronic sources, a digital object identifier (DOI), a unique alphanumeric string assigned to identify content and provide a persistent link to its location on the website is required. A retrieval date (month and year) is only needed in the reference list for nonjournal instances where material might change at a later date.
+
