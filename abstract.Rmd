@@ -1,0 +1,15 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+---
+
+\section*{Abstract}
+
+Ocean acidification (OA) is occurring across a backdrop of concurrent environmental changes that will reverberate to affect energy flow throughout ecological communities. Ocean acidification and warming will profoundly affect marine organisms, the ecosystems that organisms are embedded within, and the services and functions ecosystems provide to humanity. However, a mechanistic understanding of the interactive effects of ocean acidification and warming on organismal physiology remains a critical gap of uncertainty in a field that has prioritized a reductionist approach to studying future oceanic scenarios as isolated phenomena. The highly variable coastal environment of the rocky intertidal, and the organisms within the ecosystem, provide a model system to understand the physiological mechanisms for how organisms respond to environmental change. To address these limitations, we used thermal performance curves to empirically characterize the relationship between biological rates of respiration and grazing of \textit{Tegula funebralis}, an intertidal herbivore ubiquitous to the highly variable rocky intertidal ecosystems of California. This study measured thermal performance across a range of eight temperatures crossed with a blocked exposure to either current average ($7.9 \pm 0.1$) or future ($7.7 \pm 0.8$) average oceanic pH predictions. Measurements for respiration rates were taken after a 10-day exposure thereby enabling us to quantify energetic expenditure. Our results show no statistical difference between thermal performance metrics ($T_{\text{opt}}$, $R_{\text{max}}$, $CT_{\text{min}}$, $CT_{\text{max}}$), yet there were differences in energy expenditure between the high and low pH treatments as temperature increased. Our results empirically characterize how measurements of performance will respond to ocean warming and acidification and exemplify how organismal-level interactions may scale up to affect different ecosystem functions.
+
+
+
+
