@@ -23,12 +23,15 @@ AFDW = DW \times \left(1 - \frac{{\text{Ash Content}}}{{100}}\right)
 
 \subsection*{Conversion of Oxygen Consumption to Energy Expenditure:}
 
+<<<<<<< HEAD
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cellular respiration involves the consumption of oxygen (O2) through a process of organismal respiration to produce energy in the form of adenosine triphosphate (ATP) \cite{babcock1992oxygen} according to the equation: 
 
 \[
 C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{energy (as ATP)}
 \]
 
+=======
+>>>>>>> 0a2dbe7 (commit)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To calculate respiration, we first multiplied the moles of oxygen consumed per hour by the molar mass of oxygen, which is approximately \(32 \, \text{g/mol}\) \citep{hochachka1983protons}, to convert from moles of oxygen to grams of oxygen. Then we used an oxy-joulometric conversion factor derived from \cite{elliott1975energy}, which is \(14.14 \, \text{J/mg O}_2\), to convert from grams of oxygen consumed per hour to joules of energy expended during cellular respiration.
 
 The calculation can be expressed as follows:

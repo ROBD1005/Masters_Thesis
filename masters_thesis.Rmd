@@ -15,6 +15,8 @@ header-includes:
   - \usepackage{fancyhdr}
   - \usepackage{lastpage}
   - \usepackage{dcolumn}
+  - \usepackage{chemformula}
+  - \usepackage{chemmacros}
   - \usepackage{natbib}\bibliographystyle{agsm}
   - \usepackage[nottoc, numbib]{tocbibind}
   - \usepackage{booktabs}
@@ -56,7 +58,11 @@ knitr::include_graphics("Images/university_logo.png")
 \vspace{0.1 in}
 
 \doublespacing
+<<<<<<< HEAD
 {\bf Facing Physiological Plasticity: Investigating the Interactive Effects of pH and Temperature Variation on the Metabolic Demand of an Intertidal Gastropod \emph{Tegula funebralis} Amidst a Fluctuating Tidal Environment \\}
+=======
+{\bf Facing Physiological Constraints: Investigating the Interactive Effects of Ocean Acidification and Warming on the Metabolic Demand of an Intertidal Gastropod \emph{Tegula funebralis} Amidst a Fluctuating Tidal Environment \\}
+>>>>>>> 0a2dbe7 (commit)
 
 \vspace{0.3 in}
 
@@ -139,15 +145,4 @@ May 2024
 ```
 
 
-```{r}
-#Converting a .csv bibliography (google scholar) to a .bib bibliography 
-
-#path <- here("Bibliography", "bibliography.csv")
-
-#bib <- revtools::read_bibliography(path, return_df = FALSE)
-
-#revtools::write_bibliography(bib,
-#filename = "bibliography.bib",
-#format = "bib")
-```
 
