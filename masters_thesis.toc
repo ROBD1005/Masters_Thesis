@@ -1,0 +1,22 @@
+\contentsline {section}{List of Tables}{ix}{section*.4}%
+\contentsline {section}{List of Figures}{x}{section*.5}%
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Organisms as the Subjects of Environmental Change}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Organism Physiology in Response to Multiple Drivers of Environmental Change}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Thermal Performance Curves as a Tool to Understand Multiple Drivers of Change on Organismal Physiology}{9}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Methods}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}(a) Mesocosm Design}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}(b) Species Collection and Maintenance}{14}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}(c) Temperature and pH Treatment}{20}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}(d) Survivorship}{20}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}(e) Metabolic Experiment}{21}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}(f) Statistical analyses}{22}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Results}{23}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Statistical Analysis}{23}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Discussion}{30}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{34}{section.5}%
+\contentsline {section}{\numberline {6}Bibliography}{35}{section.6}%
+\contentsline {section}{\numberline {7}Appendix(ces)}{44}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Appendix A: additional tables}{44}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Appendix B: additional figures}{45}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Appendix C: code}{46}{subsection.7.3}%

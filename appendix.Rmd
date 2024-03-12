@@ -1,0 +1,23 @@
+---
+title: ''
+output: pdf_document
+---
+# Appendix(ces)
+
+A last section may contain supporting data for the text in the form of one or more appendices. Appendices should be placed after the bibliography. The appendices must fall within the margin requirements and may be single-spaced if necessary. The ETD website gives students the option to upload “Supporting Files” in addition to the thesis/dissertation. Supplemental files can include large appendix type material, videos, images, audio files, PowerPoint presentations, and any other file type, which will not be embedded into the main thesis document.
+
+## Appendix A: additional tables 
+
+Insert content for additional tables here.
+
+\newpage
+
+## Appendix B: additional figures
+
+Insert content for additional figures here. 
+
+\newpage
+
+## Appendix C: code
+
+Insert code (if any) used during your dissertation work here. 
