@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.29)  29 FEB 2024 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.12)  12 MAR 2024 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,14 +434,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 Package hyperref Info: Link coloring OFF on input line 72.
 ! Undefined control sequence.
-l.82 abiotic drivers \citep
+l.84 abiotic drivers \citep
                            {connell1977mechanisms, menge1987community}. 
 Here is how much of TeX's memory you used:
- 12768 strings out of 476077
- 200899 string characters out of 5791661
- 1925187 words of memory out of 5000000
- 34715 multiletter control sequences out of 15000+600000
- 568361 words of font info for 46 fonts, out of 8000000 for 9000
+ 12770 strings out of 476056
+ 200921 string characters out of 5790861
+ 1926187 words of memory out of 5000000
+ 34736 multiletter control sequences out of 15000+600000
+ 568458 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  83i,3n,93p,1009b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

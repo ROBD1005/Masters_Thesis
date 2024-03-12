@@ -38,6 +38,46 @@
 \makeatother
 \usepackage{xcolor}
 \usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -62,8 +102,6 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{dcolumn}
-\usepackage{chemformula}
-\usepackage{chemmacros}
 \usepackage{natbib}\bibliographystyle{agsm}
 \usepackage[nottoc, numbib]{tocbibind}
 \usepackage{booktabs}
@@ -430,14 +468,14 @@ metabolism directly impact a species' survival, behavior, and energetic
 requirements, consequently affecting fitness and ecosystem processes
 \citep{carey2016sea}.
 
-Cellular respiration involving the consumption of oxygen (\ce{O2})
-through a process of organismal respiration to produce energy in the
-form of adenosine triphosphate (ATP) \cite{babcock1992oxygen} is
-represented by Eq. (\ref{eq:respiration}):
+Cellular respiration involving the consumption of oxygen (O2) through a
+process of organismal respiration to produce energy in the form of
+adenosine triphosphate (ATP) \cite{babcock1992oxygen} according to the
+equation:
 
-\begin{equation}\label{eq:respiration}
-    C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{energy (as ATP)}
-\end{equation}
+\[
+C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{energy (as ATP)}
+\]
 
 ~~~~~ The physiological processes of marine organisms are directly
 impacted by abiotic drivers such as temperature and pH, which play
@@ -1038,6 +1076,7 @@ AFDW = DW \times \left(1 - \frac{{\text{Ash Content}}}{{100}}\right)
 
 \subsection*{Conversion of Oxygen Consumption to Energy Expenditure:}
 
+\textless\textless\textless\textless\textless\textless\textless{} HEAD
 ~~~~~ Cellular respiration involves the consumption of oxygen (O2)
 through a process of organismal respiration to produce energy in the
 form of adenosine triphosphate (ATP) \cite{babcock1992oxygen} according
@@ -1047,13 +1086,16 @@ to the equation:
 C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{energy (as ATP)}
 \]
 
-~~~~~ To calculate respiration, we first multiplied the moles of oxygen
-consumed per hour by the molar mass of oxygen, which is approximately
-\(32 \, \text{g/mol}\) \citep{hochachka1983protons}, to convert from
-moles of oxygen to grams of oxygen. Then we used an oxy-joulometric
-conversion factor derived from \cite{elliott1975energy}, which is
-\(14.14 \, \text{J/mg O}_2\), to convert from grams of oxygen consumed
-per hour to joules of energy expended during cellular respiration.
+=======
+\textgreater\textgreater\textgreater\textgreater\textgreater\textgreater\textgreater{}
+0a2dbe7 (commit) ~~~~~ To calculate respiration, we first multiplied the
+moles of oxygen consumed per hour by the molar mass of oxygen, which is
+approximately \(32 \, \text{g/mol}\) \citep{hochachka1983protons}, to
+convert from moles of oxygen to grams of oxygen. Then we used an
+oxy-joulometric conversion factor derived from \cite{elliott1975energy},
+which is \(14.14 \, \text{J/mg O}_2\), to convert from grams of oxygen
+consumed per hour to joules of energy expended during cellular
+respiration.
 
 The calculation can be expressed as follows:
 
@@ -1392,5 +1434,20 @@ Insert content for additional figures here.
 \subsection{Appendix C: code}\label{appendix-c-code}}
 
 Insert code (if any) used during your dissertation work here.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\#Converting a .csv bibliography (google scholar) to a .bib bibliography }
+
+\CommentTok{\#path \textless{}{-} here("Bibliography", "bibliography.csv")}
+
+\CommentTok{\#bib \textless{}{-} revtools::read\_bibliography(path, return\_df = FALSE)}
+
+\CommentTok{\#revtools::write\_bibliography(bib,}
+\CommentTok{\#filename = "bibliography.bib",}
+\CommentTok{\#format = "bib")}
+\end{Highlighting}
+\end{Shaded}
+
 
 \end{document}
